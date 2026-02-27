@@ -33,7 +33,7 @@ Let's use GitHub Copilot to do the heavy lifting of converting our COBOL applica
     > ```
 
 1. Ensure the Node.js application is created in the `src/accounting` directory and that you can run it from the `Run and Debug` sidebar in VS Code.
-     <!--- TODO add screenshot -->
+
 
 1. Make sure the application works the same as the original COBOL application.
 

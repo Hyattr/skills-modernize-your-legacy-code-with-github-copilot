@@ -73,6 +73,12 @@ When the user selects option 4, the program sets the flag to `'NO'` and terminat
 - Data persistence is currently volatile; any future enhancements should replace `DataProgram` with a database or file-based storage.
 - Business rules are simple and could be externalized to configuration or service methods during refactoring.
 
+### Node.js implementation
+
+A modern version of the application has been created in `src/accounting/index.js`. It mirrors the COBOL data flow and business rules exactly and can be executed via `node src/accounting/index.js` or through the VS Code launch configuration.
+
+Unit tests covering the same scenarios are located in `src/accounting/__tests__/accounting.test.js` and can be run with `npm test` from the `src/accounting` folder (Jest). The test plan used as the source is available in `docs/TESTPLAN.md`.
+
 This README provides a high-level guide for developers working on modernizing or understanding the legacy COBOL system.
 
 ---
