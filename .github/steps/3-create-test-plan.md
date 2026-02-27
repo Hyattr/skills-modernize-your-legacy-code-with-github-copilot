@@ -20,7 +20,7 @@ Because that is a common task, we have already set up a custom prompt file that 
    > /runCobolApp
    > ```
 
-   <!--- TODO: add screenshot -->
+
    > [!NOTE]
    > You can find the contents of the prompt file in `.github/prompts` directory.
    > You can learn more in the [prompt files documentation](https://code.visualstudio.com/docs/copilot/customization/prompt-files).
